@@ -10,11 +10,12 @@ final_score = False
 
 
 def get_end():
-
+    print("")
     is_end = input("Is there a final score to reach [Y/N]? >> ")
     if is_end.upper() == "Y":
         global score_to, final_score
         score_to = True
+        print("")
         final_score = int(input("What is the goal of the final score to reach? >> "))
     else:
         score_to = False
@@ -49,15 +50,20 @@ def end_count():
     global final_score
     if isinstance(final_score, int):
         if any(point >= final_score for point in score):
+            print("")
             score_card()
+            print("")
             print("The game has ended, thank you for playing.")
             sys.exit()
         else:
-            print("It's working! It's working!")
+            print("")
             score_card()
+            print("")
             update_score()
     else:
+        print("")
         score_card()
+        print("")
         update_score()
 
 
@@ -74,8 +80,10 @@ def update_score():
 
 get_end()
 
+print("")
 add_players()
 
+print("")
 starting_score()
 
 # Debugging Options
@@ -88,7 +96,9 @@ starting_score()
 # print(score)
 
 # print("This is the first score card")
+print("")
 score_card()
 
 # print("This is the first score update")
+print("")
 update_score()
