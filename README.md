@@ -10,18 +10,18 @@ Possible future features to inlcude:
 ## French Tarot Calculator
 French Tarot Calculator is a command line tool designed to more easily score hands of French Tarot. It allows for games which have from 2 to 5 players. Current functionality displays the amount of points won and lost by each individual per round.
 Possible future features to include:
-*Cumulatively keeping scores from round to round
-*French translation
-*Option for variant in scoring rules including different games such as different Tarrok variants
+* Cumulatively keeping scores from round to round
+* French translation
+* Option for variant in scoring rules including different games such as different Tarrok variants
 
 ## Future Scripts
 Possible future scripts:
-*A script that will recommend a card game based on user input
-*Other card game score calculators or score keeping
-  -Skat (?)
-  -Watten (?)
-  -Jass (?)
-*Potential GUI versions of the above
+* A script that will recommend a card game based on user input
+* Other card game score calculators or score keeping
+  - Skat (?)
+  - Watten (?)
+  - Jass (?)
+* Potential GUI versions of the above
 
 # License
 GPLv3
